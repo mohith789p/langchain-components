@@ -35,6 +35,9 @@ print("AI:", response.content)
 messages.append(response)
 
 print("\n" * 4)
+print("=" * 45)
+print("Message History: ")
 
 for message in messages:
-    print(message)
+    print(message.content)
+print("=" * 45)

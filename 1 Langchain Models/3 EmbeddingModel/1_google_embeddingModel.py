@@ -22,3 +22,4 @@ documents = [
 vectors = embedding.embed_documents(documents)
 
 print(vectors)
+print("Dim:", len(vector))
