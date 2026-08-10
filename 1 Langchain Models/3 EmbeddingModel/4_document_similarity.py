@@ -8,7 +8,7 @@ load_dotenv()
 
 embedding = HuggingFaceEmbeddings(
     model_name = "sentence-transformers/all-MiniLM-L6-v2",
-    cache_folder="./1 Langchain Models/3 EmbeddingModel/models"
+    cache_folder="./models"
 )
 
 documents = [
