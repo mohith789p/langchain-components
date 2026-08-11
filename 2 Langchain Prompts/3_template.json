@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "paper_title",
+        "style_tone"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Act as a principal researcher and academic editor specializing in high-impact publishing. Your objective is to draft a rigorous, publication-ready research paper based on the provided topic and constraints.\n    ---\n\n    ### Research Context\n    - **Paper Title / Topic:** {paper_title}\n    - **Style / Methodology / Target Tone:** {style_tone}\n    - **Target Length / Scope:** {length}  \n    ---\n\n    ### Execution Instructions\n    1. **Structural & Content Architecture**\n    - **Context & Problem Statement:** Clearly define the core domain, identify the primary research gap, and state the core objective based on the title.\n    - **Methodological Alignment:** Ensure argument structure, terminology, and analysis strictly conform to the specified style, methodology, and target tone.\n    - **Technical Rigor:** Incorporate formal domain language, precise operational definitions, logical transitions, and structured argumentation. Avoid superficial hand-waving or conversational filler.\n    - **Scope Control:** Maintain systematic progression across sections (Abstract, Introduction, Methodology/Framework, Discussion) proportional to the requested target length.\n\n    2. **Style & Constraints**\n    - Maintain a formal academic register throughout.\n    - Do not include meta-commentary, introductory filler, or conversational intros. Begin directly with the draft paper.\n    ---\n\n    ### Output Requirements\n    Deliver a continuous, high-density academic draft that fully addresses the paper title, aligns with the specified methodology/tone, and meets the target length requirement.\n    ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
