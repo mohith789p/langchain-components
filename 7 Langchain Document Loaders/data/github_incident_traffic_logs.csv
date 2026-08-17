@@ -1,0 +1,101 @@
+Incident_ID,Timestamp,Service,Region,Error_Type,HTTP_Status,Latency_ms,Severity,Request_ID,Mitigation_Status
+INC-20260817-052,2026-08-17 14:02:46 UTC,SCIM Provisioning,us-east-1,HTTP 500 Internal Error,401,3283,Medium,req_26b108cb,Investigating
+INC-20260817-092,2026-08-17 14:03:16 UTC,Archive Download,us-east-1,Connection Reset,504,2340,Critical,req_6bed5d0,Monitoring
+INC-20260817-073,2026-08-17 14:03:35 UTC,SCIM Provisioning,eu-west-1,HTTP 500 Internal Error,401,2138,High,req_1b8f7ce7,Resolved
+INC-20260817-063,2026-08-17 14:03:35 UTC,Raw Content Delivery,eu-central-1,HTTP 504 Gateway Timeout,502,5306,High,req_30af78f0,Monitoring
+INC-20260817-034,2026-08-17 14:03:35 UTC,Team Sync,eu-central-1,Auth Token Validation Failure,500,2280,High,req_b166cd4,Mitigating
+INC-20260817-035,2026-08-17 14:04:50 UTC,REST API,eu-central-1,Connection Reset,504,691,High,req_2a6b70de,Mitigating
+INC-20260817-080,2026-08-17 14:04:52 UTC,SAML/OIDC Auth,eu-central-1,Auth Token Validation Failure,401,1232,Medium,req_21b4b9ec,Monitoring
+INC-20260817-008,2026-08-17 14:05:36 UTC,REST API,us-west-2,RPC Metadata Timeout,504,2803,Medium,req_3b57f1b7,Monitoring
+INC-20260817-087,2026-08-17 14:06:31 UTC,Raw Content Delivery,eu-west-1,HTTP 502 Bad Gateway,504,6939,Critical,req_2b2e15ee,Monitoring
+INC-20260817-031,2026-08-17 14:06:32 UTC,Git SSH/HTTPS,us-west-2,RPC Metadata Timeout,504,1075,Low,req_1fa085e1,Investigating
+INC-20260817-079,2026-08-17 14:07:07 UTC,REST API,eu-west-1,Auth Token Validation Failure,503,2382,Critical,req_21606c9a,Monitoring
+INC-20260817-067,2026-08-17 14:10:27 UTC,SCIM Provisioning,us-west-2,Auth Token Validation Failure,500,2499,High,req_200bfcae,Monitoring
+INC-20260817-095,2026-08-17 14:10:31 UTC,Archive Download,us-west-2,HTTP 504 Gateway Timeout,502,6071,Critical,req_36e28534,Resolved
+INC-20260817-033,2026-08-17 14:10:44 UTC,Archive Download,us-west-2,HTTP 504 Gateway Timeout,502,7627,Critical,req_1a07faee,Investigating
+INC-20260817-040,2026-08-17 14:10:56 UTC,Archive Download,ap-northeast-1,Connection Reset,504,6934,Critical,req_c970a46,Mitigating
+INC-20260817-044,2026-08-17 14:11:11 UTC,SCIM Provisioning,ap-northeast-1,Auth Token Validation Failure,500,1410,High,req_28e0d48e,Investigating
+INC-20260817-009,2026-08-17 14:11:16 UTC,SAML/OIDC Auth,eu-west-1,Auth Token Validation Failure,403,3454,Medium,req_a87bcd5,Mitigating
+INC-20260817-032,2026-08-17 14:11:24 UTC,Web UI,ap-northeast-1,RPC Metadata Timeout,504,1368,Medium,req_21086efa,Resolved
+INC-20260817-027,2026-08-17 14:13:09 UTC,REST API,us-east-1,Connection Reset,503,1934,Low,req_204560ef,Resolved
+INC-20260817-090,2026-08-17 14:13:14 UTC,Team Sync,us-west-2,HTTP 504 Gateway Timeout,500,3610,Medium,req_12624d26,Monitoring
+INC-20260817-012,2026-08-17 14:14:34 UTC,SAML/OIDC Auth,eu-central-1,Auth Token Validation Failure,401,3433,Medium,req_2353b52a,Mitigating
+INC-20260817-022,2026-08-17 14:14:37 UTC,Raw Content Delivery,eu-central-1,Connection Reset,504,7002,High,req_2f8d7b23,Monitoring
+INC-20260817-026,2026-08-17 14:14:47 UTC,Git SSH/HTTPS,eu-central-1,Connection Reset,502,3413,Low,req_243b1148,Resolved
+INC-20260817-005,2026-08-17 14:14:51 UTC,REST API,eu-west-1,HTTP 500 Internal Error,500,1670,Low,req_1bf93fdc,Monitoring
+INC-20260817-014,2026-08-17 14:15:08 UTC,Team Sync,us-west-2,HTTP 500 Internal Error,500,826,Critical,req_2e1df471,Mitigating
+INC-20260817-004,2026-08-17 14:15:12 UTC,Archive Download,ap-northeast-1,HTTP 504 Gateway Timeout,504,4287,Critical,req_17be85e2,Mitigating
+INC-20260817-049,2026-08-17 14:15:21 UTC,Team Sync,us-west-2,HTTP 504 Gateway Timeout,502,1113,Medium,req_77998d6,Mitigating
+INC-20260817-060,2026-08-17 14:15:30 UTC,Git SSH/HTTPS,us-west-2,HTTP 500 Internal Error,502,2146,Critical,req_2d14fddd,Investigating
+INC-20260817-091,2026-08-17 14:15:41 UTC,Git SSH/HTTPS,eu-west-1,HTTP 504 Gateway Timeout,403,2387,Critical,req_e0fd06b,Monitoring
+INC-20260817-025,2026-08-17 14:15:47 UTC,Web UI,us-east-1,HTTP 504 Gateway Timeout,401,1174,Critical,req_17c8734e,Resolved
+INC-20260817-003,2026-08-17 14:16:02 UTC,Web UI,eu-central-1,Auth Token Validation Failure,403,2861,High,req_32d86323,Resolved
+INC-20260817-020,2026-08-17 14:16:30 UTC,Raw Content Delivery,us-east-1,Connection Reset,502,7495,Critical,req_251058b8,Investigating
+INC-20260817-029,2026-08-17 14:17:08 UTC,Raw Content Delivery,us-west-2,Connection Reset,502,4956,High,req_11b4259d,Monitoring
+INC-20260817-089,2026-08-17 14:17:19 UTC,REST API,us-west-2,Connection Reset,503,689,High,req_35813e02,Mitigating
+INC-20260817-037,2026-08-17 14:17:58 UTC,SAML/OIDC Auth,us-west-2,Auth Token Validation Failure,401,1336,Medium,req_30f2d9ff,Monitoring
+INC-20260817-041,2026-08-17 14:18:13 UTC,REST API,us-east-1,Connection Reset,503,1354,High,req_2cab692a,Mitigating
+INC-20260817-013,2026-08-17 14:18:14 UTC,Raw Content Delivery,us-west-2,Connection Reset,504,6280,High,req_1f85a825,Monitoring
+INC-20260817-074,2026-08-17 14:19:09 UTC,Archive Download,ap-northeast-1,HTTP 504 Gateway Timeout,502,7636,High,req_287bb87f,Investigating
+INC-20260817-097,2026-08-17 14:21:00 UTC,Web UI,eu-central-1,Auth Token Validation Failure,502,2762,Critical,req_137750d5,Monitoring
+INC-20260817-078,2026-08-17 14:21:27 UTC,SCIM Provisioning,eu-central-1,HTTP 500 Internal Error,500,3225,High,req_3228e7ce,Mitigating
+INC-20260817-084,2026-08-17 14:23:07 UTC,Team Sync,us-east-1,HTTP 504 Gateway Timeout,504,1068,High,req_1cab54c1,Monitoring
+INC-20260817-085,2026-08-17 14:23:24 UTC,Archive Download,eu-west-1,Connection Reset,502,2201,Critical,req_156841a4,Resolved
+INC-20260817-075,2026-08-17 14:24:03 UTC,REST API,us-west-2,Connection Reset,500,1212,Critical,req_12b8344d,Investigating
+INC-20260817-046,2026-08-17 14:24:35 UTC,Raw Content Delivery,us-west-2,Connection Reset,504,7890,Critical,req_29cb02ad,Resolved
+INC-20260817-054,2026-08-17 14:25:01 UTC,REST API,ap-northeast-1,Connection Reset,401,1485,Medium,req_306ad1b9,Investigating
+INC-20260817-053,2026-08-17 14:26:27 UTC,Raw Content Delivery,eu-central-1,HTTP 502 Bad Gateway,504,1513,Critical,req_273c40fd,Mitigating
+INC-20260817-071,2026-08-17 14:26:42 UTC,SCIM Provisioning,eu-west-1,Auth Token Validation Failure,500,3348,Medium,req_2824f5e7,Investigating
+INC-20260817-072,2026-08-17 14:27:03 UTC,Web UI,eu-central-1,HTTP 500 Internal Error,502,3750,Low,req_238258a7,Mitigating
+INC-20260817-050,2026-08-17 14:27:22 UTC,Archive Download,eu-west-1,HTTP 504 Gateway Timeout,504,6755,High,req_268ffb42,Resolved
+INC-20260817-057,2026-08-17 14:27:53 UTC,Web UI,eu-central-1,HTTP 504 Gateway Timeout,502,1960,Medium,req_383fc066,Monitoring
+INC-20260817-099,2026-08-17 14:28:03 UTC,Team Sync,ap-northeast-1,HTTP 504 Gateway Timeout,502,1380,Critical,req_3334a4ae,Monitoring
+INC-20260817-017,2026-08-17 14:29:50 UTC,Team Sync,us-west-2,HTTP 500 Internal Error,401,3320,Medium,req_1164e94d,Investigating
+INC-20260817-023,2026-08-17 14:30:04 UTC,Team Sync,eu-central-1,HTTP 500 Internal Error,502,462,High,req_1b9912a6,Investigating
+INC-20260817-061,2026-08-17 14:31:15 UTC,Raw Content Delivery,ap-northeast-1,Connection Reset,504,4773,High,req_159351ed,Mitigating
+INC-20260817-038,2026-08-17 14:31:22 UTC,REST API,eu-west-1,HTTP 500 Internal Error,401,2506,Low,req_c5bf8c5,Investigating
+INC-20260817-030,2026-08-17 14:31:44 UTC,REST API,us-west-2,RPC Metadata Timeout,500,2871,Critical,req_288edf20,Investigating
+INC-20260817-058,2026-08-17 14:31:54 UTC,Team Sync,ap-northeast-1,Connection Reset,401,2138,High,req_38c2708d,Mitigating
+INC-20260817-093,2026-08-17 14:32:12 UTC,Team Sync,ap-northeast-1,HTTP 504 Gateway Timeout,500,1234,High,req_2488fe75,Investigating
+INC-20260817-088,2026-08-17 14:32:28 UTC,SAML/OIDC Auth,eu-central-1,HTTP 500 Internal Error,401,2658,Medium,req_174c92d8,Monitoring
+INC-20260817-086,2026-08-17 14:33:31 UTC,Raw Content Delivery,eu-central-1,Connection Reset,504,5171,High,req_38b54a84,Investigating
+INC-20260817-010,2026-08-17 14:36:37 UTC,Git SSH/HTTPS,us-west-2,RPC Metadata Timeout,503,3990,Low,req_2eeba28a,Mitigating
+INC-20260817-039,2026-08-17 14:36:52 UTC,Archive Download,us-west-2,HTTP 504 Gateway Timeout,502,3501,High,req_1d9c35f4,Monitoring
+INC-20260817-068,2026-08-17 14:37:12 UTC,SCIM Provisioning,ap-northeast-1,Auth Token Validation Failure,401,2395,High,req_373a367f,Investigating
+INC-20260817-016,2026-08-17 14:37:56 UTC,REST API,us-east-1,Connection Reset,403,1593,Medium,req_d198cba,Monitoring
+INC-20260817-056,2026-08-17 14:38:00 UTC,Raw Content Delivery,us-west-2,HTTP 502 Bad Gateway,502,6542,High,req_2a621976,Monitoring
+INC-20260817-036,2026-08-17 14:39:41 UTC,Web UI,eu-central-1,Auth Token Validation Failure,504,2892,Critical,req_2b50c403,Monitoring
+INC-20260817-024,2026-08-17 14:40:19 UTC,Raw Content Delivery,eu-central-1,Connection Reset,502,2081,Critical,req_3343251b,Investigating
+INC-20260817-019,2026-08-17 14:41:03 UTC,Team Sync,eu-west-1,HTTP 500 Internal Error,503,3799,Critical,req_3b2fe30e,Monitoring
+INC-20260817-096,2026-08-17 14:41:33 UTC,Raw Content Delivery,eu-central-1,Connection Reset,504,5126,High,req_18fdb66a,Resolved
+INC-20260817-082,2026-08-17 14:42:12 UTC,Team Sync,eu-central-1,RPC Metadata Timeout,403,2626,Low,req_1723457d,Monitoring
+INC-20260817-047,2026-08-17 14:42:32 UTC,Raw Content Delivery,us-west-2,HTTP 504 Gateway Timeout,504,1703,Critical,req_11708624,Monitoring
+INC-20260817-076,2026-08-17 14:42:34 UTC,Raw Content Delivery,us-west-2,HTTP 504 Gateway Timeout,502,6120,High,req_13e9028e,Resolved
+INC-20260817-043,2026-08-17 14:43:28 UTC,Archive Download,ap-northeast-1,HTTP 504 Gateway Timeout,504,7817,Critical,req_e553a68,Monitoring
+INC-20260817-081,2026-08-17 14:43:33 UTC,Git SSH/HTTPS,ap-northeast-1,RPC Metadata Timeout,403,2337,High,req_2f96f926,Monitoring
+INC-20260817-001,2026-08-17 14:43:49 UTC,Web UI,us-east-1,Connection Reset,502,1114,Medium,req_ee4117a,Investigating
+INC-20260817-062,2026-08-17 14:44:57 UTC,REST API,us-east-1,RPC Metadata Timeout,502,3493,High,req_327fb28b,Resolved
+INC-20260817-059,2026-08-17 14:45:08 UTC,Archive Download,us-east-1,Connection Reset,502,7653,High,req_14fdf74b,Monitoring
+INC-20260817-098,2026-08-17 14:45:15 UTC,Git SSH/HTTPS,us-east-1,HTTP 502 Bad Gateway,401,507,High,req_ffa8266,Investigating
+INC-20260817-002,2026-08-17 14:46:21 UTC,REST API,eu-central-1,Auth Token Validation Failure,500,322,Low,req_bf4fb56,Mitigating
+INC-20260817-051,2026-08-17 14:46:33 UTC,SAML/OIDC Auth,eu-central-1,Auth Token Validation Failure,401,1531,High,req_2b1e42d7,Monitoring
+INC-20260817-011,2026-08-17 14:46:54 UTC,Web UI,eu-west-1,HTTP 502 Bad Gateway,503,1843,Critical,req_17188ba7,Investigating
+INC-20260817-077,2026-08-17 14:47:55 UTC,SAML/OIDC Auth,eu-west-1,Auth Token Validation Failure,500,2074,High,req_ce0f805,Investigating
+INC-20260817-100,2026-08-17 14:48:09 UTC,REST API,ap-northeast-1,Connection Reset,503,3426,High,req_3899ae94,Mitigating
+INC-20260817-066,2026-08-17 14:48:52 UTC,Raw Content Delivery,eu-west-1,HTTP 502 Bad Gateway,504,5924,High,req_b1e1032,Mitigating
+INC-20260817-042,2026-08-17 14:49:09 UTC,Raw Content Delivery,eu-west-1,Connection Reset,504,3557,High,req_9362b03,Investigating
+INC-20260817-055,2026-08-17 14:49:18 UTC,Archive Download,eu-west-1,Connection Reset,504,4796,High,req_3294f109,Monitoring
+INC-20260817-065,2026-08-17 14:51:29 UTC,Archive Download,us-west-2,Connection Reset,502,3749,High,req_221cc065,Investigating
+INC-20260817-064,2026-08-17 14:51:43 UTC,SCIM Provisioning,ap-northeast-1,HTTP 500 Internal Error,403,2744,High,req_22c3d266,Monitoring
+INC-20260817-021,2026-08-17 14:52:05 UTC,Git SSH/HTTPS,eu-central-1,HTTP 502 Bad Gateway,401,876,Low,req_16ec9110,Resolved
+INC-20260817-048,2026-08-17 14:53:34 UTC,Raw Content Delivery,ap-northeast-1,HTTP 502 Bad Gateway,502,4633,Critical,req_87057c2,Resolved
+INC-20260817-015,2026-08-17 14:54:14 UTC,REST API,ap-northeast-1,RPC Metadata Timeout,401,2117,Low,req_27d2e36a,Monitoring
+INC-20260817-006,2026-08-17 14:55:15 UTC,Team Sync,us-east-1,Auth Token Validation Failure,504,522,Critical,req_294a833c,Monitoring
+INC-20260817-094,2026-08-17 14:56:17 UTC,SCIM Provisioning,us-east-1,HTTP 500 Internal Error,403,3378,High,req_31e4b146,Investigating
+INC-20260817-007,2026-08-17 14:56:47 UTC,SAML/OIDC Auth,eu-central-1,Auth Token Validation Failure,500,1733,High,req_376fd4a2,Monitoring
+INC-20260817-045,2026-08-17 14:57:08 UTC,Git SSH/HTTPS,eu-west-1,RPC Metadata Timeout,500,1462,High,req_1d4c544a,Investigating
+INC-20260817-083,2026-08-17 14:58:18 UTC,REST API,us-west-2,HTTP 504 Gateway Timeout,502,3273,Low,req_23b3a995,Resolved
+INC-20260817-070,2026-08-17 14:58:25 UTC,Raw Content Delivery,ap-northeast-1,HTTP 502 Bad Gateway,504,5070,Critical,req_250aa32f,Investigating
+INC-20260817-069,2026-08-17 14:58:39 UTC,SCIM Provisioning,eu-central-1,HTTP 500 Internal Error,401,2023,High,req_362ed0bf,Resolved
+INC-20260817-028,2026-08-17 14:59:08 UTC,REST API,us-east-1,HTTP 500 Internal Error,403,1589,Low,req_3932c95c,Investigating
+INC-20260817-018,2026-08-17 14:59:35 UTC,Raw Content Delivery,eu-west-1,HTTP 504 Gateway Timeout,502,5918,High,req_37cae523,Investigating
